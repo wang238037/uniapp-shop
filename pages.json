@@ -12,6 +12,18 @@
     "path": "pages/my/my",
     "style": {}
   }],
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [{
+                    "path" : "goods_details/goods_details",
+                    "style" : {}
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" : {}
+                }
+            ]
+  }],
   "tabBar": {
     "selectedColor": "#C00000",
     "list": [{
@@ -41,9 +53,9 @@
     ]
   },
   "globalStyle": {
-    "navigationBarTextStyle": "white",  // 导航栏标题颜色，仅支持white和black
-    "navigationBarTitleText": "在线优购",  // 导航栏标题文字内容
-    "navigationBarBackgroundColor": "#C00000",  // 导航栏背景色
-    "backgroundColor": "#FFFFFF"  // 窗口背景色
+    "navigationBarTextStyle": "white", // 导航栏标题颜色，仅支持white和black
+    "navigationBarTitleText": "在线优购", // 导航栏标题文字内容
+    "navigationBarBackgroundColor": "#C00000", // 导航栏背景色
+    "backgroundColor": "#FFFFFF" // 窗口背景色
   }
 }
